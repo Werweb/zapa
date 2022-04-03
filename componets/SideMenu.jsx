@@ -5,7 +5,7 @@ import React from 'react'
 
 const SideMenu = () => {
   return (
-    <Drawer open={true} anchor='left' sx={{backdropFilter:'bluo(4px', transition: 'all 0.5s ease-out'}}>
+    <Drawer open={false} anchor='left' sx={{backdropFilter:'bluo(4px', transition: 'all 0.5s ease-out'}}>
            <Box sx={{ width: 250, paddingTop: 5 }}>
             
             <List>

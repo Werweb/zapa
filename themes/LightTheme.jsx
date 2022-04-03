@@ -10,6 +10,9 @@ const LightTheme = createTheme({
     },
     secondary: {
       main: '#3A64D8'
+    },
+    info:{
+      main:'#fff'
     }
   },
   components: {
@@ -54,6 +57,7 @@ const LightTheme = createTheme({
         variant: 'contained',
         size: 'small',
         disableElevation: true,
+        color:'info'
       },
       styleOverrides: {
         root: {
